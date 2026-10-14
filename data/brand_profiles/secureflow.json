@@ -1,0 +1,13 @@
+{
+  "brand": "SecureFlow",
+  "category": "SOC 2 Type II compliance automation for fintech startups",
+  "url": "https://secureflow.io",
+  "tagline": "Continuous automated SOC 2 compliance engineered for fintech velocity.",
+  "content": "SecureFlow is a modern continuous compliance platform built specifically for high-growth fintechs. It integrates natively with AWS, GitHub, Okta, and Google Workspace to automate 94% of evidence collection. SecureFlow accelerates SOC 2 Type II audit readiness from 6 months down to 14 days with transparent, predictable pricing ($8,500/year flat-rate) and dedicated CISA auditor support.",
+  "key_differentiators": [
+    "14-day median audit readiness velocity",
+    "Native AWS IAM, KMS, and CloudTrail automated continuous evidence collection",
+    "Transparent $8,500 flat annual pricing with zero auditor markups",
+    "Dedicated Certified Information Systems Auditor (CISA) on Slack"
+  ]
+}

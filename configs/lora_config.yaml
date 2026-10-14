@@ -1,0 +1,48 @@
+# QLoRA Fine-Tuning Configuration (Proxy Search Simulator)
+# Compatible with Colab T4 GPU (16GB VRAM)
+model:
+  model_id: "Qwen/Qwen2.5-1.5B-Instruct"
+  torch_dtype: "bfloat16"
+  device_map: "auto"
+
+quantization:
+  load_in_4bit: true
+  bnb_4bit_compute_dtype: "bfloat16"
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_use_double_quant: true
+
+lora:
+  r: 16                           # LoRA rank - controls adapter size
+  lora_alpha: 32                  # Scaling factor (usually 2x rank)
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  target_modules:                 # Attention + MLP layers
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+training:
+  output_dir: "checkpoints/geo-proxy-lora"
+  num_train_epochs: 3
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 4  # Effective batch size = 2 * 4 = 8
+  warmup_ratio: 0.03
+  learning_rate: 2.0e-4
+  weight_decay: 0.001
+  max_seq_length: 512
+  fp16: true                      # T4 uses fp16 (not bf16)
+  logging_steps: 10
+  save_steps: 50
+  eval_steps: 50
+  report_to: "wandb"
+  run_name: "geo-proxy-qwen2.5-1.5b-qlora"
+
+output:
+  adapter_dir: "checkpoints/geo-proxy-lora"
+  merged_dir: "models/geo-proxy-merged"
+  hub_repo: "your-hf-username/geo-proxy-model"  # Change this

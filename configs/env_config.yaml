@@ -1,0 +1,42 @@
+# FirstMind Environment Configuration
+brand:
+  name: "SecureFlow"
+  tagline: "SOC2 Compliance Automation for Fintech Startups"
+  base_description: "SecureFlow automates SOC2 compliance for fintech companies running on AWS. Trusted by 200+ startups."
+  target_market: "fintech startups on AWS"
+  key_features:
+    - "Automated SOC2 Type II audit preparation"
+    - "AWS GovCloud compliance support"
+    - "Real-time continuous monitoring"
+    - "90-day audit readiness guarantee"
+    - "Dedicated compliance engineer per account"
+  pricing: "$2,000/month for startups under 500 employees"
+  differentiators:
+    - "Only platform with native AWS GovCloud support"
+    - "Fastest audit completion: average 47 days vs industry 90 days"
+    - "G2 rated #1 for Customer Support 2025"
+
+competitors:
+  - name: "Vanta"
+    strengths: ["Large market share", "Good integrations", "Fast setup"]
+  - name: "Drata"
+    strengths: ["Continuous monitoring", "Enterprise workflows"]
+  - name: "Secureframe"
+    strengths: ["Vendor risk management", "Multi-framework support"]
+
+environment:
+  max_steps_per_episode: 10
+  top_k_retrieval: 5
+  embedding_model: "all-MiniLM-L6-v2"
+  
+reward:
+  weights:
+    rank: 0.5
+    presence: 0.3
+    sentiment: 0.15
+    penalty: 0.05
+  rank_scores:
+    rank_1: 1.0
+    rank_2: 0.6
+    rank_3: 0.3
+    unranked: 0.0

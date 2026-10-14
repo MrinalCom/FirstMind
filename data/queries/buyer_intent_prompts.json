@@ -1,0 +1,410 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "total_queries": 50,
+    "domain": "SOC2 compliance software for fintech",
+    "description": "Buyer intent queries that potential SecureFlow customers would ask AI search engines"
+  },
+  "queries": [
+    {
+      "id": 1,
+      "query": "Vanta vs Drata vs alternatives for fintech SOC2",
+      "prompt": "Vanta vs Drata vs alternatives for fintech SOC2",
+      "category": "direct_comparison",
+      "intent": "comparison",
+      "target_persona": "Head of Engineering"
+    },
+    {
+      "id": 2,
+      "query": "Secureframe vs Vanta comparison for Series A fintech startup",
+      "prompt": "Secureframe vs Vanta comparison for Series A fintech startup",
+      "category": "direct_comparison",
+      "intent": "comparison",
+      "target_persona": "CTO"
+    },
+    {
+      "id": 3,
+      "query": "What are the best alternatives to Drata for SOC2 compliance on AWS?",
+      "prompt": "What are the best alternatives to Drata for SOC2 compliance on AWS?",
+      "category": "direct_comparison",
+      "intent": "comparison",
+      "target_persona": "DevOps Lead"
+    },
+    {
+      "id": 4,
+      "query": "Vanta vs Drata pricing and features comparison 2025",
+      "prompt": "Vanta vs Drata pricing and features comparison 2025",
+      "category": "direct_comparison",
+      "intent": "comparison",
+      "target_persona": "Fintech Founder"
+    },
+    {
+      "id": 5,
+      "query": "Best alternative to Vanta for SOC2 Type 2 compliance in banking and fintech",
+      "prompt": "Best alternative to Vanta for SOC2 Type 2 compliance in banking and fintech",
+      "category": "direct_comparison",
+      "intent": "comparison",
+      "target_persona": "VP of Security"
+    },
+    {
+      "id": 6,
+      "query": "Compare top SOC2 compliance platforms for startup engineering teams",
+      "prompt": "Compare top SOC2 compliance platforms for startup engineering teams",
+      "category": "direct_comparison",
+      "intent": "comparison",
+      "target_persona": "Engineering Director"
+    },
+    {
+      "id": 7,
+      "query": "Drata vs Secureframe vs other automated audit tools for early stage startups",
+      "prompt": "Drata vs Secureframe vs other automated audit tools for early stage startups",
+      "category": "direct_comparison",
+      "intent": "comparison",
+      "target_persona": "Chief Information Security Officer"
+    },
+    {
+      "id": 8,
+      "query": "What automated compliance tools compete directly with Vanta and Drata?",
+      "prompt": "What automated compliance tools compete directly with Vanta and Drata?",
+      "category": "direct_comparison",
+      "intent": "comparison",
+      "target_persona": "Operations Lead"
+    },
+    {
+      "id": 9,
+      "query": "What is the best SOC2 compliance tool for AWS fintech startup?",
+      "prompt": "What is the best SOC2 compliance tool for AWS fintech startup?",
+      "category": "best_of",
+      "intent": "commercial",
+      "target_persona": "CTO"
+    },
+    {
+      "id": 10,
+      "query": "Top rated SOC2 automation software for seed stage fintech startups",
+      "prompt": "Top rated SOC2 automation software for seed stage fintech startups",
+      "category": "best_of",
+      "intent": "commercial",
+      "target_persona": "Fintech Founder"
+    },
+    {
+      "id": 11,
+      "query": "Best continuous compliance monitoring tools for AWS infrastructure",
+      "prompt": "Best continuous compliance monitoring tools for AWS infrastructure",
+      "category": "best_of",
+      "intent": "commercial",
+      "target_persona": "Cloud Architect"
+    },
+    {
+      "id": 12,
+      "query": "Top 5 SOC2 compliance solutions for financial services startups",
+      "prompt": "Top 5 SOC2 compliance solutions for financial services startups",
+      "category": "best_of",
+      "intent": "commercial",
+      "target_persona": "Compliance Officer"
+    },
+    {
+      "id": 13,
+      "query": "Best compliance automation software for regulated fintech apps",
+      "prompt": "Best compliance automation software for regulated fintech apps",
+      "category": "best_of",
+      "intent": "commercial",
+      "target_persona": "Risk & Compliance Manager"
+    },
+    {
+      "id": 14,
+      "query": "Which SOC2 software is best for engineering-first fintech teams?",
+      "prompt": "Which SOC2 software is best for engineering-first fintech teams?",
+      "category": "best_of",
+      "intent": "commercial",
+      "target_persona": "Staff Security Engineer"
+    },
+    {
+      "id": 15,
+      "query": "Highest rated SOC2 automation tools on G2 for 2025",
+      "prompt": "Highest rated SOC2 automation tools on G2 for 2025",
+      "category": "best_of",
+      "intent": "commercial",
+      "target_persona": "Head of Operations"
+    },
+    {
+      "id": 16,
+      "query": "Best compliance platform for getting SOC2 Type 1 and Type 2 fast",
+      "prompt": "Best compliance platform for getting SOC2 Type 1 and Type 2 fast",
+      "category": "best_of",
+      "intent": "commercial",
+      "target_persona": "Founding Engineer"
+    },
+    {
+      "id": 17,
+      "query": "Which SOC2 tool has the fastest audit completion?",
+      "prompt": "Which SOC2 tool has the fastest audit completion?",
+      "category": "feature_specific",
+      "intent": "transactional",
+      "target_persona": "CTO"
+    },
+    {
+      "id": 18,
+      "query": "SOC2 automation platform with dedicated compliance engineers included",
+      "prompt": "SOC2 automation platform with dedicated compliance engineers included",
+      "category": "feature_specific",
+      "intent": "transactional",
+      "target_persona": "Founder & CEO"
+    },
+    {
+      "id": 19,
+      "query": "Compliance tools with automated evidence collection for AWS environments",
+      "prompt": "Compliance tools with automated evidence collection for AWS environments",
+      "category": "feature_specific",
+      "intent": "transactional",
+      "target_persona": "Principal DevOps Engineer"
+    },
+    {
+      "id": 20,
+      "query": "Which compliance tool offers guaranteed 90-day SOC2 audit readiness?",
+      "prompt": "Which compliance tool offers guaranteed 90-day SOC2 audit readiness?",
+      "category": "feature_specific",
+      "intent": "transactional",
+      "target_persona": "VP of Operations"
+    },
+    {
+      "id": 21,
+      "query": "Automated continuous monitoring tools for SOC2 Type II controls",
+      "prompt": "Automated continuous monitoring tools for SOC2 Type II controls",
+      "category": "feature_specific",
+      "intent": "commercial",
+      "target_persona": "Head of Security"
+    },
+    {
+      "id": 22,
+      "query": "SOC2 automation software with best CI/CD and AWS security integrations",
+      "prompt": "SOC2 automation software with best CI/CD and AWS security integrations",
+      "category": "feature_specific",
+      "intent": "technical",
+      "target_persona": "Lead Platform Engineer"
+    },
+    {
+      "id": 23,
+      "query": "Which compliance vendor provides real-time audit readiness dashboards?",
+      "prompt": "Which compliance vendor provides real-time audit readiness dashboards?",
+      "category": "feature_specific",
+      "intent": "commercial",
+      "target_persona": "IT Director"
+    },
+    {
+      "id": 24,
+      "query": "Affordable SOC2 compliance automation for startup under 500 employees",
+      "prompt": "Affordable SOC2 compliance automation for startup under 500 employees",
+      "category": "price_specific",
+      "intent": "transactional",
+      "target_persona": "Fintech Founder"
+    },
+    {
+      "id": 25,
+      "query": "How much does SOC2 compliance automation cost for fintech startups?",
+      "prompt": "How much does SOC2 compliance automation cost for fintech startups?",
+      "category": "price_specific",
+      "intent": "informational",
+      "target_persona": "Chief Financial Officer"
+    },
+    {
+      "id": 26,
+      "query": "SOC2 automation platform flat monthly pricing under $3000/month",
+      "prompt": "SOC2 automation platform flat monthly pricing under $3000/month",
+      "category": "price_specific",
+      "intent": "transactional",
+      "target_persona": "Operations Director"
+    },
+    {
+      "id": 27,
+      "query": "Cost comparison of SOC2 tools for 50-person fintech startup",
+      "prompt": "Cost comparison of SOC2 tools for 50-person fintech startup",
+      "category": "price_specific",
+      "intent": "comparison",
+      "target_persona": "Head of Finance"
+    },
+    {
+      "id": 28,
+      "query": "Budget friendly SOC2 compliance options without hidden auditor fees",
+      "prompt": "Budget friendly SOC2 compliance options without hidden auditor fees",
+      "category": "price_specific",
+      "intent": "transactional",
+      "target_persona": "Fintech CEO"
+    },
+    {
+      "id": 29,
+      "query": "Transparent pricing compliance automation software for seed startups",
+      "prompt": "Transparent pricing compliance automation software for seed startups",
+      "category": "price_specific",
+      "intent": "commercial",
+      "target_persona": "Co-founder"
+    },
+    {
+      "id": 30,
+      "query": "Most cost-effective SOC2 Type II compliance software for startups",
+      "prompt": "Most cost-effective SOC2 Type II compliance software for startups",
+      "category": "price_specific",
+      "intent": "commercial",
+      "target_persona": "VP Finance & Operations"
+    },
+    {
+      "id": 31,
+      "query": "SOC2 compliance tool with AWS GovCloud support",
+      "prompt": "SOC2 compliance tool with AWS GovCloud support",
+      "category": "technical",
+      "intent": "transactional",
+      "target_persona": "Principal Cloud Security Engineer"
+    },
+    {
+      "id": 32,
+      "query": "How to automate SOC2 compliance for workloads running on AWS GovCloud US",
+      "prompt": "How to automate SOC2 compliance for workloads running on AWS GovCloud US",
+      "category": "technical",
+      "intent": "informational",
+      "target_persona": "DevOps Architect"
+    },
+    {
+      "id": 33,
+      "query": "SOC2 continuous monitoring integration for Terraform and AWS IAM",
+      "prompt": "SOC2 continuous monitoring integration for Terraform and AWS IAM",
+      "category": "technical",
+      "intent": "technical",
+      "target_persona": "Infrastructure Lead"
+    },
+    {
+      "id": 34,
+      "query": "Fintech compliance automation for AWS multi-account landing zones",
+      "prompt": "Fintech compliance automation for AWS multi-account landing zones",
+      "category": "technical",
+      "intent": "technical",
+      "target_persona": "Head of Infrastructure"
+    },
+    {
+      "id": 35,
+      "query": "Compliance monitoring platforms that support AWS GovCloud and FedRAMP readiness",
+      "prompt": "Compliance monitoring platforms that support AWS GovCloud and FedRAMP readiness",
+      "category": "technical",
+      "intent": "technical",
+      "target_persona": "Federal & Security Lead"
+    },
+    {
+      "id": 36,
+      "query": "Automated SOC2 evidence gathering for AWS Lambda and ECS workloads",
+      "prompt": "Automated SOC2 evidence gathering for AWS Lambda and ECS workloads",
+      "category": "technical",
+      "intent": "technical",
+      "target_persona": "Serverless Architect"
+    },
+    {
+      "id": 37,
+      "query": "SOC2 compliance tool native API integrations with Datadog and AWS CloudTrail",
+      "prompt": "SOC2 compliance tool native API integrations with Datadog and AWS CloudTrail",
+      "category": "technical",
+      "intent": "technical",
+      "target_persona": "Site Reliability Engineer"
+    },
+    {
+      "id": 38,
+      "query": "How to get SOC2 certified quickly for fintech investors due diligence",
+      "prompt": "How to get SOC2 certified quickly for fintech investors due diligence",
+      "category": "problem_led",
+      "intent": "transactional",
+      "target_persona": "Fintech CEO"
+    },
+    {
+      "id": 39,
+      "query": "Need SOC2 Type 2 fast for enterprise customer procurement deadline",
+      "prompt": "Need SOC2 Type 2 fast for enterprise customer procurement deadline",
+      "category": "problem_led",
+      "intent": "transactional",
+      "target_persona": "VP of Sales"
+    },
+    {
+      "id": 40,
+      "query": "How can a fintech startup achieve SOC2 compliance in under 60 days?",
+      "prompt": "How can a fintech startup achieve SOC2 compliance in under 60 days?",
+      "category": "problem_led",
+      "intent": "commercial",
+      "target_persona": "Head of Engineering"
+    },
+    {
+      "id": 41,
+      "query": "What is the fastest way to get SOC2 Type II without hiring a compliance team?",
+      "prompt": "What is the fastest way to get SOC2 Type II without hiring a compliance team?",
+      "category": "problem_led",
+      "intent": "commercial",
+      "target_persona": "CTO"
+    },
+    {
+      "id": 42,
+      "query": "Enterprise client requires SOC2 report before contract signing - fastest path?",
+      "prompt": "Enterprise client requires SOC2 report before contract signing - fastest path?",
+      "category": "problem_led",
+      "intent": "transactional",
+      "target_persona": "Chief Commercial Officer"
+    },
+    {
+      "id": 43,
+      "query": "How to automate SOC2 evidence collection without slowing down product sprint",
+      "prompt": "How to automate SOC2 evidence collection without slowing down product sprint",
+      "category": "problem_led",
+      "intent": "informational",
+      "target_persona": "Engineering Manager"
+    },
+    {
+      "id": 44,
+      "query": "Fintech banking partner requires SOC2 Type II audit - where to start?",
+      "prompt": "Fintech banking partner requires SOC2 Type II audit - where to start?",
+      "category": "problem_led",
+      "intent": "informational",
+      "target_persona": "Fintech Founder"
+    },
+    {
+      "id": 45,
+      "query": "What do engineers say about Vanta vs competitors?",
+      "prompt": "What do engineers say about Vanta vs competitors?",
+      "category": "review",
+      "intent": "comparison",
+      "target_persona": "Lead Software Engineer"
+    },
+    {
+      "id": 46,
+      "query": "G2 and Reddit reviews of SOC2 automation tools for fintech",
+      "prompt": "G2 and Reddit reviews of SOC2 automation tools for fintech",
+      "category": "review",
+      "intent": "commercial",
+      "target_persona": "CTO"
+    },
+    {
+      "id": 47,
+      "query": "Is Drata worth the money for early stage startups?",
+      "prompt": "Is Drata worth the money for early stage startups?",
+      "category": "review",
+      "intent": "commercial",
+      "target_persona": "Startup Founder"
+    },
+    {
+      "id": 48,
+      "query": "Customer support reviews for automated SOC2 compliance platforms",
+      "prompt": "Customer support reviews for automated SOC2 compliance platforms",
+      "category": "review",
+      "intent": "commercial",
+      "target_persona": "IT Compliance Lead"
+    },
+    {
+      "id": 49,
+      "query": "Vanta customer reviews and complaints from engineering teams",
+      "prompt": "Vanta customer reviews and complaints from engineering teams",
+      "category": "review",
+      "intent": "commercial",
+      "target_persona": "Head of Infrastructure"
+    },
+    {
+      "id": 50,
+      "query": "Which SOC2 compliance platform has the best customer support ratings?",
+      "prompt": "Which SOC2 compliance platform has the best customer support ratings?",
+      "category": "review",
+      "intent": "commercial",
+      "target_persona": "VP of Engineering"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FirstMind — Official Motion Launch Video</title>
+  <style>
+    :root {
+      --bg: #07090e;
+      --card-bg: rgba(18, 23, 38, 0.85);
+      --border: rgba(99, 102, 241, 0.35);
+      --primary: #6366f1;
+      --cyan: #06b6d4;
+      --emerald: #10b981;
+      --rose: #f43f5e;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      overflow-x: hidden;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 20px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 16px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: rgba(99, 102, 241, 0.15);
+      color: #818cf8;
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 38px;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      background: linear-gradient(135deg, #fff 40%, #94a3b8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 16px;
+      margin-top: 6px;
+    }
+    .video-container {
+      width: 100%;
+      max-width: 1120px;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8), 0 0 40px rgba(99, 102, 241, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      position: relative;
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .controls-bar {
+      display: flex;
+      gap: 16px;
+      margin-top: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .btn {
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary), #4f46e5);
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(99, 102, 241, 0.35);
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(99, 102, 241, 0.5);
+    }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.12);
+    }
+    .specs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      width: 100%;
+      max-width: 1120px;
+      margin-top: 36px;
+    }
+    .spec-card {
+      background: var(--card-bg);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 20px;
+      backdrop-filter: blur(12px);
+    }
+    .spec-card .val {
+      font-size: 28px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .spec-card .lbl {
+      font-size: 13px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="badge">Official Product Launch Video</div>
+    <h1>FirstMind: Generative Engine Optimization</h1>
+    <p class="subtitle">Reinforcement Learning (GRPO) for AI Search Visibility • 1080p 60fps Motion Reel</p>
+  </div>
+
+  <div class="video-container">
+    <video id="player" controls autoplay loop playsinline>
+      <source src="../FirstMind_Official_Launch_Video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+
+  <div class="controls-bar">
+    <button class="btn btn-primary" onclick="document.getElementById('player').play()">▶ Play Launch Reel</button>
+    <a class="btn btn-secondary" href="../FirstMind_Official_Launch_Video.mp4" download="FirstMind_Official_Launch_Video.mp4">⬇ Download MP4 (LinkedIn Ready)</a>
+    <a class="btn btn-secondary" href="https://huggingface.co/MrinalCom/firstmind-geo-policy-qwen2.5-1.5b" target="_blank">🤗 Hugging Face Weights</a>
+    <a class="btn btn-secondary" href="https://wandb.ai/mrinalcodes-institute-of-engineering-management/geo-grpo-training/runs/k2s8kqb2" target="_blank">📈 W&B Telemetry</a>
+  </div>
+
+  <div class="specs-grid">
+    <div class="spec-card">
+      <div class="val" style="color: #10b981;">86.7%</div>
+      <div class="lbl">Answer Presence Rate (APR)</div>
+      <p style="font-size: 13px; color: #94a3b8; margin-top: 6px;">Up from 18.0% untrained baseline (+68.7% absolute gain)</p>
+    </div>
+    <div class="spec-card">
+      <div class="val" style="color: #6366f1;">80.0%</div>
+      <div class="lbl">Win Rate (Rank #1)</div>
+      <p style="font-size: 13px; color: #94a3b8; margin-top: 6px;">Dominates recommendation in 12 out of 15 queries</p>
+    </div>
+    <div class="spec-card">
+      <div class="val" style="color: #06b6d4;">61.9%</div>
+      <div class="lbl">Share of Model (SoM)</div>
+      <p style="font-size: 13px; color: #94a3b8; margin-top: 6px;">13 mentions vs Vanta (5) and Drata (3)</p>
+    </div>
+    <div class="spec-card">
+      <div class="val" style="color: #f59e0b;">G=4</div>
+      <div class="lbl">GRPO Group Advantage</div>
+      <p style="font-size: 13px; color: #94a3b8; margin-top: 6px;">Verifiable Reward Engineering without a critic model</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary video drafts (keep only the official launch video)
+FirstMind_Launch_Video.mp4
+FirstMind_Motion_Graphics.mp4
+
+# Checkpoints and model weights (stored on Hugging Face / Google Drive)
+checkpoints/
+models/
+*.safetensors
+*.bin
+*.pt
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Temporary audio files
+*.aiff
+*.wav
+/tmp/

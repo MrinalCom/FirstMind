@@ -1,0 +1,45 @@
+# GRPO Policy Training Configuration
+# GRPO = Group Relative Policy Optimization (DeepSeek-R1 style)
+# No critic model needed - more memory efficient than PPO
+model:
+  model_id: "Qwen/Qwen2.5-1.5B-Instruct"
+  torch_dtype: "bfloat16"
+
+lora:
+  r: 8                            # Smaller rank for policy (less params)
+  lora_alpha: 16
+  lora_dropout: 0.05
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+
+grpo:
+  num_generations: 4              # G: number of outputs per prompt (group size)
+  max_prompt_length: 256
+  max_completion_length: 512
+  temperature: 0.8                # Sampling temperature for diversity
+  
+training:
+  output_dir: "checkpoints/geo-policy-grpo"
+  num_train_epochs: 2
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 8
+  learning_rate: 5.0e-6
+  fp16: true
+  logging_steps: 5
+  save_steps: 25
+  report_to: "wandb"
+  run_name: "geo-policy-grpo-v1"
+
+reward_functions:
+  - "brand_presence"              # Is brand mentioned? (0 or 1)
+  - "brand_rank"                  # What rank? (0.0 to 1.0)
+  - "content_format"              # Is it structured well? (0 or 0.5)
+  - "naturalness"                 # No keyword stuffing penalty
+
+output:
+  policy_dir: "checkpoints/geo-policy-grpo"
+  merged_dir: "models/geo-policy-merged"
+  hub_repo: "your-hf-username/geo-policy-model"  # Change this
